@@ -20,9 +20,20 @@
         android:label="fragment_inside_home"
         tools:layout="@layout/fragment_inside_home" >
         <argument
-            android:name="argumentoPasado"
-            app:argType="string"
-            android:defaultValue="aaa" />
+            android:name="nombre"
+            app:argType="string" />
+        <argument
+            android:name="appaterno"
+            app:argType="string" />
+        <argument
+            android:name="apmaterno"
+            app:argType="string" />
+        <argument
+            android:name="usuario"
+            app:argType="string" />
+        <argument
+            android:name="email"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
